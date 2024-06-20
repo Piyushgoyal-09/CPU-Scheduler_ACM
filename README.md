@@ -71,8 +71,10 @@ The program assumes integer inputs for simplicity and handles a single CPU envir
 Error handling for invalid inputs (negative values, non-integer inputs) is not implemented in this version.
 Each scheduling function sorts processes by arrival time before applying the respective algorithm.
 
-##input demo![input](https://github.com/Piyushgoyal-09/CPU-Scheduler_ACM/assets/173268130/706ca02e-8a11-4cf4-b502-f313d6524a00)
+##input demo
+![input](https://github.com/Piyushgoyal-09/CPU-Scheduler_ACM/assets/173268130/706ca02e-8a11-4cf4-b502-f313d6524a00)
 
-##output ![output](https://github.com/Piyushgoyal-09/CPU-Scheduler_ACM/assets/173268130/4b738f48-c82d-43e7-8e2b-042d871d2dfb)
+##output
+![output](https://github.com/Piyushgoyal-09/CPU-Scheduler_ACM/assets/173268130/4b738f48-c82d-43e7-8e2b-042d871d2dfb)
 
 
