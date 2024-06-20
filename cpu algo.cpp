@@ -225,14 +225,14 @@ int main() {
    for (int i = 0; i < num_processes; ++i) {
        int id, arrival, burst, priority;
        cout << "Enter details for Process " << i + 1 << ":" << endl;
-       cout << "ID: ";
-       cin >> id;
-       cout << "Arrival Time: ";
-       cin >> arrival;
-       cout << "Burst Time: ";
-       cin >> burst;
-       cout << "Priority: ";
-       cin >> priority;
+       cout << "ID: Arival Time:  Burst Time:  Priority:"<<endl;
+       cin >> id >> arrival >> burst >> priority;
+       // cout << "Arrival Time: ";
+       // cin >> arrival;
+       // cout << "Burst Time: ";
+       // cin >> burst;
+       // cout << "Priority: ";
+       // cin >> priority;
        scheduler.addProcess(id, arrival, burst, priority);
    }
 cout << "\nPriority Scheduling:" << endl;
